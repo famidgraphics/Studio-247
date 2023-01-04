@@ -1,0 +1,408 @@
+/* font-family: 'Karla', sans-serif; */
+/* font-family: 'Teko', sans-serif; */
+/* font-family: 'Work Sans', sans-serif;*/
+
+
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1465px;
+}
+
+
+
+.topbar-section {
+    background: #572500;
+}
+.topbar-section .social-icon ul li {
+    margin-right: 8px;
+}
+.topbar-section .topber-item span {
+    margin-right: 12px;
+}
+.topbar-section .social-icon ul li span {
+    margin-right: 14px;
+}
+.topbar-section .row {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;    
+}
+
+/* -- ---------------------manubar----------------------------- --*/
+
+.manubar-section h5 {
+    padding-bottom: 10px;
+    margin-top: 25%;
+    border-bottom: 1px dotted #707070;
+}
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar-nav a {
+    font-family: 'Karla', sans-serif; 
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400; 
+    color: #4C721F;
+    text-transform: uppercase;
+    
+}
+.manubar-section h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #4C721F;
+}
+/* -----------------------banner------------------------ */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 82px;
+    height: 518px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px;
+    height: 10px;
+   
+}
+.carousel-item h5{
+    font-family: 'Teko', sans-serif;  
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 500;    
+}
+.carousel-item h6{
+    font-family: 'Karla', sans-serif;   
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 700; 
+    background: #4C721F;
+    color: white; 
+    margin-bottom: 320px;
+    border-radius: 0px; 
+}
+.carousel-item h6:hover{
+    font-family: 'Karla', sans-serif;   
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 700; 
+    background: white;
+    color: #4C721F;
+    margin-bottom: 320px;
+    border-radius: 0px;
+}
+
+
+/* --------------------------------about-us--------------------------- */
+
+.about-section{
+    background: #572500;
+}
+
+.about-section .about-title{
+    margin-left: 30px;
+}
+
+.about-section .about-title h1 {
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500; 
+}
+.about-section .about-title p {
+    font-family: 'Karla', sans-serif;   
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500; 
+    max-width: 78%;
+    margin-bottom: 76px;
+}
+.about-section .about-title h6 {
+    font-family: 'Karla', sans-serif;   
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700; 
+    background: #4C721F;
+    color: white;
+    border-radius: 0px; 
+}
+.about-section .about-title h6:hover {
+    font-family: 'Karla', sans-serif;   
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700; 
+    background: white;
+    color: #4C721F;
+    border-radius: 0px;
+}
+
+
+/* -----------------------------Our Services---------------------- */
+
+.services-section{
+    background: #572500;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 455px;
+    height: 401px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+  .flip-card-back {
+    background-color: #572500;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.content_img {
+position: absolute;
+top: 40%;
+width: 110%;
+text-align: center;
+transition: 1s;
+}
+
+.services-section .row {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.services-section .flip-card-back p {
+    font-family: 'Karla', sans-serif;   
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    max-width: 75%;
+    display: contents;
+    text-align: center;
+}
+
+.services-section .content_img {
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+}
+.services-section h1 {
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+}
+
+/* - --------------------------CLIENTS----------------------------  */
+
+.clients-section{
+    background: #572500;
+}
+.clients-section .clients-title h1 {    
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+.clients-section .clients-slied p {    
+    font-family: 'Karla', sans-serif;   
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.clients-section .clients-slied h2 {    
+    font-family: 'Karla', sans-serif;   
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.clients-section .clients-slied h4 {    
+    font-family: 'Karla', sans-serif;   
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.clients-section .clients-image .clients-slied {    
+    width: 23.5%;
+}
+.clients-section .clients-image {
+    column-gap: 47px;  
+}
+
+/* --------------------------Products----------------------------- */
+.products-section {
+    background: #572500;
+}
+.products-title h1{
+
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: white;
+    display: block;        
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+
+    
+    /* -- ----------------------------sign-up---------------------------- */
+
+.sing-up-section {
+    background: #572500;
+    padding: 100px 0px;
+}
+.sing-up-section .container {
+    height: 326px;
+    width: 1414px;
+    background: white;
+        
+}
+.sign-title h3 {
+    font-family: 'Teko', sans-serif;  
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    color: #000000;
+}
+.name-send h6{
+    font-family: 'Karla', sans-serif;   
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+.name-send input::placeholder {
+    font-family: 'Karla', sans-serif;   
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    padding-left: 10px;
+}
+    
+    
+.name-send .form-one input{
+    border: none;
+    background: #987963;
+    padding: 10px 80px 10px 0px;
+}
+.name-send .form-two input{
+    border: none;
+    background: #4C721F;
+    padding: 10px 0px;
+    border-color: #4C721F;        
+}
+
+/* -------------------------fotter-------------------------------- */
+.fotter-section {
+    background-image: url(../img/fotter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    padding: 150px 0;
+}
+
+.fotter-section .row .fotter-image,
+.fotter-section .row .fotter-quick,    
+.fotter-section .row .fotter-contact,  
+.fotter-section .row .fotter-opening {    
+    width: 20%;
+    /* padding-top: 150px; */
+}
+.fotter-section .row {
+    column-gap: 20px;  
+}
+
+.fotter-section .fotter-opening h1,
+.fotter-section .fotter-contact h1,
+.fotter-section .fotter-quick h1 {
+    font-family: 'Karla', sans-serif;   
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.fotter-section .fotter-opening p,
+.fotter-section .fotter-contact p,
+.fotter-section .fotter-quick p {
+    font-family: 'Karla', sans-serif;   
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* -------------------lastbar--------------------------- */
+
+.last-bar-section {
+    background: #000000;
+}
+
+.last-bar-section ul li  {
+    margin-right: 8px;
+    color: white;
+}
+.last-bar-section p  {
+    color: white;
+}
+
+
+
+
+
+
